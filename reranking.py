@@ -138,7 +138,7 @@ context = "\n\n".join(top_documents)
 
 
 # Generate the final answer using the OpenAI model
-def generate_multi_query(query, context, model="gpt-3.5-turbo"):
+def generate_multi_query(query, context, model="gpt-5.6-luna"):
 
     prompt = f"""
     You are a knowledgeable financial research assistant. 

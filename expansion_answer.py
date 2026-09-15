@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from pypdf import PdfReader
 import umap
 
-
 # Load environment variables from .env file
 load_dotenv()
 
@@ -80,7 +79,7 @@ retrieved_documents = results["documents"][0]
 #     print("\n")
 
 
-def augment_query_generated(query, model="gpt-3.5-turbo"):
+def augment_query_generated(query, model="gpt-5.6-luna"):
     prompt = """You are a helpful expert financial research assistant. 
    Provide an example answer to the given question, that might be found in a document like an annual report."""
     messages = [

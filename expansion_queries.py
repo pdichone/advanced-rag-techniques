@@ -72,7 +72,7 @@ retrieved_documents = results["documents"][0]
 #     print("\n")
 
 
-def generate_multi_query(query, model="gpt-3.5-turbo"):
+def generate_multi_query(query, model="gpt-5.6-luna"):
 
     prompt = """
     You are a knowledgeable financial research assistant. 
